@@ -33,16 +33,16 @@ export default function StatusDashboard() {
 
   const getBatteryIcon = () => {
     if (batteryLevel > 60) return <BatteryFull className="h-5 w-5 text-accent" />;
-    if (batteryLevel > 20) return <BatteryMedium className="h-5 w-5 text-primary" />;
+    if (batteryLevel > 20) return <BatteryMedium className="h-5 w-5 text-yellow-400" />;
     return <BatteryLow className="h-5 w-5 text-destructive" />;
   };
 
   return (
-    <Card>
+    <Card className="h-full border-primary/10">
       <CardHeader>
         <div className="flex items-center justify-between">
             <CardTitle className="font-headline text-xl">System Status</CardTitle>
-            <ShieldCheck className="h-6 w-6 text-accent" />
+            <ShieldCheck className="h-6 w-6 text-primary" />
         </div>
         <CardDescription>Real-time on-device monitoring.</CardDescription>
       </CardHeader>

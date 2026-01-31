@@ -30,7 +30,7 @@ export default function SmartSOS() {
 
   return (
     <>
-      <Card>
+      <Card className="h-full border-primary/10">
         <CardHeader>
           <div className="flex items-center justify-between">
             <CardTitle className="font-headline text-xl">Smart SOS</CardTitle>
@@ -43,11 +43,11 @@ export default function SmartSOS() {
         <CardContent className="flex flex-col gap-4">
           <p className="text-sm text-muted-foreground">In case of emergency, select the type of incident. TripGuardian will handle the rest.</p>
           <div className="grid grid-cols-2 gap-4">
-            <Button variant="outline" className="h-24 flex-col gap-2" onClick={() => triggerSOS("health")}>
+            <Button variant="outline" className="h-24 flex-col gap-2 hover:bg-red-500/10 hover:border-destructive hover:text-destructive" onClick={() => triggerSOS("health")}>
               <HeartPulse className="h-8 w-8" />
               <span>Health Emergency</span>
             </Button>
-            <Button variant="outline" className="h-24 flex-col gap-2" onClick={() => triggerSOS("crime")}>
+            <Button variant="outline" className="h-24 flex-col gap-2 hover:bg-yellow-500/10 hover:border-yellow-500 hover:text-yellow-400" onClick={() => triggerSOS("crime")}>
               <ShieldAlert className="h-8 w-8" />
               <span>Crime/Threat</span>
             </Button>

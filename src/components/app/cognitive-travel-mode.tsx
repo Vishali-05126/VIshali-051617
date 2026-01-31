@@ -60,11 +60,11 @@ export default function CognitiveTravelMode() {
   };
 
   return (
-    <Card>
+    <Card className="border-primary/10">
       <CardHeader>
         <div className="flex items-center justify-between">
             <CardTitle className="font-headline text-xl">Cognitive Travel Mode™</CardTitle>
-            <BrainCircuit className="h-6 w-6 text-accent" />
+            <BrainCircuit className="h-6 w-6 text-primary" />
         </div>
         <CardDescription>
           AI thinks ahead based on your travel context to provide pre-emptive safety guidance.

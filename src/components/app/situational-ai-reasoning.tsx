@@ -50,11 +50,11 @@ export default function SituationalAIReasoning() {
   }
 
   return (
-    <Card>
+    <Card className="border-primary/10">
       <CardHeader>
         <div className="flex items-center justify-between">
             <CardTitle className="font-headline text-xl">Situational AI Reasoning</CardTitle>
-            <Bot className="h-6 w-6 text-accent" />
+            <Bot className="h-6 w-6 text-primary" />
         </div>
         <CardDescription>
           Context-aware emergency responses. The same input can yield different guidance.

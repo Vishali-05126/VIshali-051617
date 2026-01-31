@@ -68,14 +68,14 @@ export default function IntelligentAlertSystem() {
 
   const getUrgencyColorThemed = (urgency: string) => {
     if (urgency === "high") return "border-destructive bg-destructive/20 text-destructive-foreground";
-    if (urgency === "medium") return "border-primary bg-primary/20 text-primary-foreground";
+    if (urgency === "medium") return "border-yellow-500 bg-yellow-500/20 text-yellow-200";
     return "border-accent bg-accent/20 text-accent-foreground";
   };
   
   const getUrgencyIconThemed = (urgency: string, alertType?: string) => {
     if (alertType === 'false-alarm-suppression') return <CheckCircle2 className="h-6 w-6 text-accent" />;
     if (urgency === "high") return <AlertTriangle className="h-6 w-6 text-destructive" />;
-    if (urgency === "medium") return <Bell className="h-6 w-6 text-primary" />;
+    if (urgency === "medium") return <Bell className="h-6 w-6 text-yellow-400" />;
     return <Bell className="h-6 w-6 text-accent" />;
   };
 
@@ -86,11 +86,11 @@ export default function IntelligentAlertSystem() {
   };
 
   return (
-    <Card className="w-full">
+    <Card className="w-full border-primary/10">
       <CardHeader>
         <div className="flex items-center justify-between">
             <CardTitle className="font-headline text-xl">Intelligent Alert System</CardTitle>
-            {isLoading ? <Loader2 className="h-6 w-6 animate-spin text-accent" /> : <Bell className="h-6 w-6 text-accent" />}
+            {isLoading ? <Loader2 className="h-6 w-6 animate-spin text-primary" /> : <Bell className="h-6 w-6 text-primary" />}
         </div>
         <CardDescription>
           Context-aware, life-saving alerts that are reasoned by AI, not just triggered by static rules.
@@ -123,8 +123,8 @@ export default function IntelligentAlertSystem() {
                 {log.length === 0 && <p className="text-sm text-muted-foreground text-center p-4">Waiting for sensor data...</p>}
                 {log.map((entry, index) => (
                     <div key={index} className="text-xs p-2 rounded-md bg-background/50">
-                        <p><span className="font-semibold text-accent">Context:</span> {Object.entries(entry.context).map(([k,v]) => `${k}: ${v}`).join(', ')}</p>
-                        <p><span className="font-semibold text-accent">AI Alert:</span> {entry.alert.alertMessage} ({entry.alert.alertType}, {entry.alert.urgency})</p>
+                        <p><span className="font-semibold text-primary/80">Context:</span> {Object.entries(entry.context).map(([k,v]) => `${k}: ${v}`).join(', ')}</p>
+                        <p><span className="font-semibold text-accent/80">AI Alert:</span> {entry.alert.alertMessage} ({entry.alert.alertType}, {entry.alert.urgency})</p>
                     </div>
                 ))}
             </div>
