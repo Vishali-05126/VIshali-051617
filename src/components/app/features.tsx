@@ -1,23 +1,23 @@
 "use client";
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Lock, WifiOff, Zap } from "lucide-react";
+import { Footprints, Sparkles, Theater } from "lucide-react";
 
 const features = [
   {
-    icon: <Lock className="h-8 w-8 text-primary" />,
-    title: "True Privacy",
-    description: "User data is too sensitive to ever leave the device. TripGuardian operates with on-device processing and RAM-only memory that auto-wipes.",
+    icon: <Footprints className="h-8 w-8 text-primary" />,
+    title: "Predictive Danger Shadow",
+    description: "Our AI doesn’t just react to danger; it forecasts it. By running local forward-simulations, it visualizes a 'danger shadow' map of potential risks.",
   },
   {
-    icon: <WifiOff className="h-8 w-8 text-primary" />,
-    title: "The 'Offline' Edge",
-    description: "A tool for remote areas, subways, or disaster zones where the internet is dead.",
+    icon: <Theater className="h-8 w-8 text-primary" />,
+    title: "Consent-Locked Emergency Persona",
+    description: "During an emergency, the AI instantly changes its persona—from a calm medical professional to a firm authority—based on real-time sensor data, not just prompts.",
   },
   {
-    icon: <Zap className="h-8 w-8 text-primary" />,
-    title: "Zero Latency",
-    description: "Voice assistants and agents that react instantly because they live on the chip, not the server.",
+    icon: <Sparkles className="h-8 w-8 text-primary" />,
+    title: "Self-Evolving Safety Intelligence",
+    description: "Every TripGuardian becomes better and more personalized for its user over time. It learns user comfort thresholds and alert sensitivity locally, without ever uploading data.",
   },
 ];
 
@@ -25,8 +25,8 @@ export default function Features() {
   return (
     <Card className="border-primary/10">
       <CardHeader>
-        <CardTitle className="font-headline text-xl">Core Principles</CardTitle>
-        <CardDescription>The technology that makes TripGuardian AI a reality.</CardDescription>
+        <CardTitle className="font-headline text-xl">System-Level Innovations</CardTitle>
+        <CardDescription>Novel, local-AI-only features that are impossible on the cloud.</CardDescription>
       </CardHeader>
       <CardContent className="grid gap-6 sm:grid-cols-1 md:grid-cols-3">
         {features.map((feature) => (

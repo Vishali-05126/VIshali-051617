@@ -60,12 +60,12 @@ export default function SmartSOS() {
             <div className="flex items-center justify-between">
                 <Label htmlFor="last-gasp-sos" className="flex items-center gap-2 font-semibold">
                     <BatteryWarning className="h-5 w-5 text-primary" />
-                    Last-Gasp SOS
+                    Last-Moments Intelligence Capsule (LMIC)
                 </Label>
                 <Switch id="last-gasp-sos" defaultChecked />
             </div>
             <p className="text-xs text-muted-foreground">
-                When enabled, TripGuardian will automatically send an SOS with your last known location right before the device battery dies. This works even if the device is offline.
+                When enabled, if the device is about to die, the AI creates an encrypted SOS capsule with your location, audio snapshot, and other data. It auto-sends once power or signal returns.
             </p>
           </div>
         </CardContent>
