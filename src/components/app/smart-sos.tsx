@@ -17,7 +17,10 @@ import {
   DialogDescription,
   DialogFooter,
 } from "@/components/ui/dialog";
-import { Siren, HeartPulse, ShieldAlert, Wifi, Smartphone, Bluetooth, Satellite } from "lucide-react";
+import { Siren, HeartPulse, ShieldAlert, Wifi, Smartphone, Bluetooth, Satellite, BatteryWarning } from "lucide-react";
+import { Separator } from "@/components/ui/separator";
+import { Label } from "@/components/ui/label";
+import { Switch } from "@/components/ui/switch";
 
 export default function SmartSOS() {
   const [isOpen, setIsOpen] = useState(false);
@@ -51,6 +54,19 @@ export default function SmartSOS() {
               <ShieldAlert className="h-8 w-8" />
               <span>Crime/Threat</span>
             </Button>
+          </div>
+          <Separator className="my-2" />
+          <div className="space-y-3">
+            <div className="flex items-center justify-between">
+                <Label htmlFor="last-gasp-sos" className="flex items-center gap-2 font-semibold">
+                    <BatteryWarning className="h-5 w-5 text-primary" />
+                    Last-Gasp SOS
+                </Label>
+                <Switch id="last-gasp-sos" defaultChecked />
+            </div>
+            <p className="text-xs text-muted-foreground">
+                When enabled, TripGuardian will automatically send an SOS with your last known location right before the device battery dies. This works even if the device is offline.
+            </p>
           </div>
         </CardContent>
       </Card>
