@@ -4,6 +4,7 @@ import SituationalAIReasoning from '@/components/app/situational-ai-reasoning';
 import IntelligentAlertSystem from '@/components/app/intelligent-alert-system';
 import SmartSOS from '@/components/app/smart-sos';
 import StatusDashboard from '@/components/app/status-dashboard';
+import Features from '@/components/app/features';
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
           <SituationalAIReasoning />
         </div>
         <IntelligentAlertSystem />
+        <Features />
       </main>
     </div>
   );
