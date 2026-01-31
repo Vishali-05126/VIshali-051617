@@ -1,0 +1,45 @@
+[App Running in Background]
+            |
+            v
+[Context Monitor (On-Device)]
+- Motion Sensors
+- Microphone (Stress Patterns)
+- Time & Battery
+- Location Cache
+            |
+            v
+[Risk Evaluation Engine]
+(DeepSeek-R1-Distill)
+            |
+            |--- LOW RISK ---> [Silent Monitoring]
+            |
+            |--- MEDIUM RISK ---> [Pre-Risk Alert]
+            |                     - Soft vibration
+            |                     - Safety suggestion
+            |
+            |--- HIGH RISK ---> [Emergency Classification]
+                                   |
+                  -------------------------------------
+                  |                                   |
+          [Health Emergency]                  [Crime Emergency]
+                  |                                   |
+        [Offline Medical Guidance]        [Stealth Safety Guidance]
+                  |                                   |
+                  v                                   v
+        [Generate Encrypted SOS Packet (Local)]
+                  |
+                  v
+        [Connectivity Check Engine]
+                  |
+      ----------------------------------
+      |        |           |           |
+[Internet]  [SMS]   [Bluetooth Relay] [None]
+      |        |           |           |
+      v        v           v           v
+[Send SOS] [Send SMS] [Relay SOS] [Store Securely]
+                  |
+                  v
+        [Auto-Send When Signal Appears]
+                  |
+                  v
+        [Post-Incident Safe Mode]
