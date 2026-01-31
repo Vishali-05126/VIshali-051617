@@ -2,7 +2,7 @@ import { ShieldCheck } from "lucide-react";
 
 export default function Header() {
   return (
-    <header className="sticky top-0 z-50 flex h-20 items-center gap-4 border-b border-primary/10 bg-background/80 px-4 backdrop-blur-lg md:px-6">
+    <header className="sticky top-0 z-50 flex h-20 items-center gap-4 border-b border-white/10 bg-black/30 px-4 backdrop-blur-lg md:px-6">
       <div className="flex items-center gap-3">
         <div className="p-2 bg-primary/10 rounded-lg">
             <ShieldCheck className="h-8 w-8 text-primary" />
