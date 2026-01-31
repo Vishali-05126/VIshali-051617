@@ -4,12 +4,13 @@ import { useState, useEffect } from "react";
 import { intelligentAlert, type IntelligentAlertOutput, type IntelligentAlertInput } from "@/ai/flows/intelligent-alert-system";
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { AlertTriangle, Bell, Loader2, ZapOff, CheckCircle2 } from "lucide-react";
+import { AlertTriangle, Bell, Loader2, ZapOff, CheckCircle2, HeartPulse } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Badge } from "@/components/ui/badge";
 
 const mockSensorData: IntelligentAlertInput[] = [
     { time: "night", motion: "walking", noise: "quiet", battery: "high", locationContext: "unfamiliar area", voiceStressLevel: "normal", movementPattern: "normal" },
+    { time: "day", motion: "falling", noise: "quiet", battery: "medium", locationContext: "familiar area", voiceStressLevel: "stressed", movementPattern: "sudden stop" },
     { time: "night", motion: "walking", noise: "quiet", battery: "medium", locationContext: "prolonged isolation", voiceStressLevel: "elevated", movementPattern: "normal" },
     { time: "night", motion: "running", noise: "quiet", battery: "medium", locationContext: "unfamiliar area", voiceStressLevel: "stressed", movementPattern: "erratic" },
     { time: "day", motion: "walking", noise: "crowded", battery: "high", locationContext: "known route", voiceStressLevel: "normal", movementPattern: "normal" },
@@ -74,6 +75,7 @@ export default function IntelligentAlertSystem() {
   
   const getUrgencyIconThemed = (urgency: string, alertType?: string) => {
     if (alertType === 'false-alarm-suppression') return <CheckCircle2 className="h-6 w-6 text-accent" />;
+    if (alertType === 'medical-emergency') return <HeartPulse className="h-6 w-6 text-destructive" />;
     if (urgency === "high") return <AlertTriangle className="h-6 w-6 text-destructive" />;
     if (urgency === "medium") return <Bell className="h-6 w-6 text-yellow-400" />;
     return <Bell className="h-6 w-6 text-accent" />;
