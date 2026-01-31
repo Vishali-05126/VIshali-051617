@@ -1,0 +1,103 @@
+time,motion,noise,battery,locationContext,voiceStressLevel,movementPattern
+night,walking,quiet,high,"unfamiliar area",normal,normal
+day,falling,quiet,medium,"familiar area",stressed,"sudden stop"
+night,walking,quiet,medium,"prolonged isolation",elevated,normal
+night,running,quiet,medium,"unfamiliar area",stressed,erratic
+day,walking,crowded,high,"known route",normal,normal
+night,still,quiet,low,"isolated",normal,"sudden stop"
+night,walking,quiet,high,"unfamiliar area",normal,normal
+day,falling,quiet,medium,"familiar area",stressed,"sudden stop"
+night,walking,quiet,medium,"prolonged isolation",elevated,normal
+night,running,quiet,medium,"unfamiliar area",stressed,erratic
+day,walking,crowded,high,"known route",normal,normal
+night,still,quiet,low,"isolated",normal,"sudden stop"
+night,walking,quiet,high,"unfamiliar area",normal,normal
+day,falling,quiet,medium,"familiar area",stressed,"sudden stop"
+night,walking,quiet,medium,"prolonged isolation",elevated,normal
+night,running,quiet,medium,"unfamiliar area",stressed,erratic
+day,walking,crowded,high,"known route",normal,normal
+night,still,quiet,low,"isolated",normal,"sudden stop"
+night,walking,quiet,high,"unfamiliar area",normal,normal
+day,falling,quiet,medium,"familiar area",stressed,"sudden stop"
+night,walking,quiet,medium,"prolonged isolation",elevated,normal
+night,running,quiet,medium,"unfamiliar area",stressed,erratic
+day,walking,crowded,high,"known route",normal,normal
+night,still,quiet,low,"isolated",normal,"sudden stop"
+night,walking,quiet,high,"unfamiliar area",normal,normal
+day,falling,quiet,medium,"familiar area",stressed,"sudden stop"
+night,walking,quiet,medium,"prolonged isolation",elevated,normal
+night,running,quiet,medium,"unfamiliar area",stressed,erratic
+day,walking,crowded,high,"known route",normal,normal
+night,still,quiet,low,"isolated",normal,"sudden stop"
+night,walking,quiet,high,"unfamiliar area",normal,normal
+day,falling,quiet,medium,"familiar area",stressed,"sudden stop"
+night,walking,quiet,medium,"prolonged isolation",elevated,normal
+night,running,quiet,medium,"unfamiliar area",stressed,erratic
+day,walking,crowded,high,"known route",normal,normal
+night,still,quiet,low,"isolated",normal,"sudden stop"
+night,walking,quiet,high,"unfamiliar area",normal,normal
+day,falling,quiet,medium,"familiar area",stressed,"sudden stop"
+night,walking,quiet,medium,"prolonged isolation",elevated,normal
+night,running,quiet,medium,"unfamiliar area",stressed,erratic
+day,walking,crowded,high,"known route",normal,normal
+night,still,quiet,low,"isolated",normal,"sudden stop"
+night,walking,quiet,high,"unfamiliar area",normal,normal
+day,falling,quiet,medium,"familiar area",stressed,"sudden stop"
+night,walking,quiet,medium,"prolonged isolation",elevated,normal
+night,running,quiet,medium,"unfamiliar area",stressed,erratic
+day,walking,crowded,high,"known route",normal,normal
+night,still,quiet,low,"isolated",normal,"sudden stop"
+night,walking,quiet,high,"unfamiliar area",normal,normal
+day,falling,quiet,medium,"familiar area",stressed,"sudden stop"
+night,walking,quiet,medium,"prolonged isolation",elevated,normal
+night,running,quiet,medium,"unfamiliar area",stressed,erratic
+day,walking,crowded,high,"known route",normal,normal
+night,still,quiet,low,"isolated",normal,"sudden stop"
+night,walking,quiet,high,"unfamiliar area",normal,normal
+day,falling,quiet,medium,"familiar area",stressed,"sudden stop"
+night,walking,quiet,medium,"prolonged isolation",elevated,normal
+night,running,quiet,medium,"unfamiliar area",stressed,erratic
+day,walking,crowded,high,"known route",normal,normal
+night,still,quiet,low,"isolated",normal,"sudden stop"
+night,walking,quiet,high,"unfamiliar area",normal,normal
+day,falling,quiet,medium,"familiar area",stressed,"sudden stop"
+night,walking,quiet,medium,"prolonged isolation",elevated,normal
+night,running,quiet,medium,"unfamiliar area",stressed,erratic
+day,walking,crowded,high,"known route",normal,normal
+night,still,quiet,low,"isolated",normal,"sudden stop"
+night,walking,quiet,high,"unfamiliar area",normal,normal
+day,falling,quiet,medium,"familiar area",stressed,"sudden stop"
+night,walking,quiet,medium,"prolonged isolation",elevated,normal
+night,running,quiet,medium,"unfamiliar area",stressed,erratic
+day,walking,crowded,high,"known route",normal,normal
+night,still,quiet,low,"isolated",normal,"sudden stop"
+night,walking,quiet,high,"unfamiliar area",normal,normal
+day,falling,quiet,medium,"familiar area",stressed,"sudden stop"
+night,walking,quiet,medium,"prolonged isolation",elevated,normal
+night,running,quiet,medium,"unfamiliar area",stressed,erratic
+day,walking,crowded,high,"known route",normal,normal
+night,still,quiet,low,"isolated",normal,"sudden stop"
+night,walking,quiet,high,"unfamiliar area",normal,normal
+day,falling,quiet,medium,"familiar area",stressed,"sudden stop"
+night,walking,quiet,medium,"prolonged isolation",elevated,normal
+night,running,quiet,medium,"unfamiliar area",stressed,erratic
+day,walking,crowded,high,"known route",normal,normal
+night,still,quiet,low,"isolated",normal,"sudden stop"
+night,walking,quiet,high,"unfamiliar area",normal,normal
+day,falling,quiet,medium,"familiar area",stressed,"sudden stop"
+night,walking,quiet,medium,"prolonged isolation",elevated,normal
+night,running,quiet,medium,"unfamiliar area",stressed,erratic
+day,walking,crowded,high,"known route",normal,normal
+night,still,quiet,low,"isolated",normal,"sudden stop"
+night,walking,quiet,high,"unfamiliar area",normal,normal
+day,falling,quiet,medium,"familiar area",stressed,"sudden stop"
+night,walking,quiet,medium,"prolonged isolation",elevated,normal
+night,running,quiet,medium,"unfamiliar area",stressed,erratic
+day,walking,crowded,high,"known route",normal,normal
+night,still,quiet,low,"isolated",normal,"sudden stop"
+night,walking,quiet,high,"unfamiliar area",normal,normal
+day,falling,quiet,medium,"familiar area",stressed,"sudden stop"
+night,walking,quiet,medium,"prolonged isolation",elevated,normal
+night,running,quiet,medium,"unfamiliar area",stressed,erratic
+day,walking,crowded,high,"known route",normal,normal
+night,still,quiet,low,"isolated",normal,"sudden stop"
