@@ -65,7 +65,7 @@ export default function SmartSOS() {
                 <Switch id="last-gasp-sos" defaultChecked />
             </div>
             <p className="text-xs text-muted-foreground">
-                When enabled, if the device is about to die, the AI creates an encrypted SOS capsule with your location, audio snapshot, and other data. It auto-sends once power or signal returns.
+                When enabled, if the device is about to die, the AI creates an end-to-end encrypted SOS capsule with your location, audio snapshot, and other data. It auto-sends once power or signal returns.
             </p>
           </div>
         </CardContent>
