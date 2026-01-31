@@ -1,0 +1,7 @@
+## Model Feasibility
+
+- Whisper-tiny (~150MB) for offline speech-to-text
+- DeepSeek-R1-Distill (4–8 bit quantized, ~1.5–2GB RAM)
+- LLaMA-3-3B (~2GB) for calm, human-like responses
+
+All models are feasible on modern smartphones using the RunAnywhere SDK.
