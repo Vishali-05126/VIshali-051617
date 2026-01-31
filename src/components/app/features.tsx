@@ -30,10 +30,12 @@ export default function Features() {
       </CardHeader>
       <CardContent className="grid gap-6 sm:grid-cols-1 md:grid-cols-3">
         {features.map((feature) => (
-          <div key={feature.title} className="flex flex-col items-center text-center gap-2 p-4 rounded-lg border bg-background/50">
+          <div key={feature.title} className="flex flex-col items-start text-left gap-4 p-6 rounded-lg border bg-card hover:bg-secondary transition-colors duration-300">
             {feature.icon}
-            <h3 className="font-semibold text-lg">{feature.title}</h3>
-            <p className="text-sm text-muted-foreground">{feature.description}</p>
+            <div>
+                <h3 className="font-semibold text-lg">{feature.title}</h3>
+                <p className="text-sm text-muted-foreground mt-1">{feature.description}</p>
+            </div>
           </div>
         ))}
       </CardContent>

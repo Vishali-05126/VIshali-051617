@@ -5,6 +5,7 @@ import IntelligentAlertSystem from '@/components/app/intelligent-alert-system';
 import SmartSOS from '@/components/app/smart-sos';
 import StatusDashboard from '@/components/app/status-dashboard';
 import Features from '@/components/app/features';
+import Contest from '@/components/app/contest';
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         </div>
         <IntelligentAlertSystem />
         <Features />
+        <Contest />
       </main>
     </div>
   );
