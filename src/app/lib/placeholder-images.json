@@ -1,0 +1,22 @@
+{
+  "placeholderImages": [
+    {
+      "id": "feature-pds",
+      "description": "A winding path through a forest, representing predictive routes.",
+      "imageUrl": "https://picsum.photos/seed/feature1/600/400",
+      "imageHint": "path route"
+    },
+    {
+      "id": "feature-persona",
+      "description": "Theatrical masks representing changing personas in an emergency.",
+      "imageUrl": "https://picsum.photos/seed/feature2/600/400",
+      "imageHint": "mask theater"
+    },
+    {
+      "id": "feature-self-evolving",
+      "description": "Abstract representation of evolving AI intelligence.",
+      "imageUrl": "https://picsum.photos/seed/feature3/600/400",
+      "imageHint": "abstract intelligence"
+    }
+  ]
+}
