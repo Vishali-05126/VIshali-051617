@@ -28,6 +28,10 @@ User Sensors / Voice
 - DeepSeek-R1-Distill (4–8 bit quantized)
 - LLaMA-3-3B (low-latency dialogue)
 
+
+## Intelligent Safety Decision Flow
+![Safety Flow](docs/intelligent-safety-flow.png)
+
 ## 📵 Offline Scenario
 A tourist in a rural dead zone suffers a fall. TripGuardian detects the emergency, provides first-aid guidance offline, and automatically sends SOS alerts once any signal is available.
 
